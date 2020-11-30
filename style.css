@@ -50,8 +50,23 @@ hr{
   .navigation{
       background-color: var(--primary-color); 
       color: rgb(255, 255, 255)  ;
+      padding: 1rem;
+       border-bottom-left-radius: 1.1rem;
+     border-top-right-radius: 1.1rem;
   }
   
   .navigation .links{
       color: white;
   }
+   
+  .nav-brand{
+      font-weight: bold;
+      font-size: 1.1rem;
+  }
+  
+  .nav-pills{
+      text-align:right ;
+  }
+   .link-active{
+       font-weight: bold;
+   }
