@@ -108,6 +108,7 @@ hr {
 /* section */
 .section{
     padding: 2rem;
+    
 }
 .section h1 {
     text-align: center;
@@ -137,5 +138,17 @@ border-bottom-right-radius: 1.1rem;
  .footer .footer-header{
      font-weight: bold;
      font-size: large;
-     padding: 0 0.8rem;
+     padding: 0 1rem;
+ }
+
+ .container-center .center-text{
+     text-align:justify;
+     
+ }
+ .head-color{
+     color: var(--dark-color);
+ }
+
+ .link-margin{
+     margin: 2px;
  }
