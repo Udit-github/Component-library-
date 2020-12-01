@@ -1,72 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-:root{
-    --primary-color: #F87171
+
+:root {
+    --primary-color: #F87171;
+    --dark-color: #e9b226;
+    --off-white:#E5E7EB;
+   --light-green: #A7F3D0;
+
 }
-body{
+
+body {
     font-family: 'Comfortaa', cursive;
-} 
-/**container**/
-.container{
- padding-left: 1rem;
- padding-right: 1rem;
+    margin: 0px;
 }
-.container-center{
+
+/**container**/
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
     max-width: 600px;
     margin: auto;
 
 }
+
 /* links*/
-.links{
+.links {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.secondary-link{ 
+
+.secondary-link {
     text-decoration: none;
     padding: 0.5rem 0.8rem 0.3rem 0.8rem;
     border-radius: 0.5rem;
     color: var(--primary-color);
     border: 1px solid var(--primary-color)
-
 }
-.primary-link{
-    
+
+.primary-link {
+
     padding: 0.5rem 0.8rem 0.3rem 0.8rem;
     text-decoration: none;
     background-color: var(--primary-color);
     border-radius: 1rem;
-    
+
     color: rgb(255, 255, 255);
 }
-hr{
-    margin:1.5rem 0rem;
+
+hr {
+    margin: 1.5rem 0rem;
 }
- .non-bullet{
-     list-style: none;
+
+.non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-bottom-left-radius: 1.1rem;
+    border-top-right-radius: 1.1rem;
+}
+
+.navigation .links {
+    color: white;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.nav-pills {
+    text-align: right;
+    font-size: 1.4rem;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    font-size: 2rem;
+    color: var(--dark-color);
+}
+
+/* section */
+.section{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+.ow{
+background-color: var(--off-white);
+}
+
+.section.container-center{
+    padding: 2rem;
+}
+/* footer */
+
+ .footer{
+     background-color: var(--primary-color);
+color: white;
+padding: 0.7rem 0.8rem;
+text-align: center;
+border-top-left-radius: 1.1rem;
+border-bottom-right-radius: 1.1rem;
  }
- .list-item-inline{
-     display: inline;
-     padding: 0rem 0.5rem;
+ .footer .links{
+     color: var(--light-green);
  }
-  .navigation{
-      background-color: var(--primary-color); 
-      color: rgb(255, 255, 255)  ;
-      padding: 1rem;
-       border-bottom-left-radius: 1.1rem;
-     border-top-right-radius: 1.1rem;
-  }
-  
-  .navigation .links{
-      color: white;
-  }
-   
-  .nav-brand{
-      font-weight: bold;
-      font-size: 1.1rem;
-  }
-  
-  .nav-pills{
-      text-align:right ;
-  }
-   .link-active{
-       font-weight: bold;
-   }
+
+ .footer .footer-header{
+     font-weight: bold;
+     font-size: large;
+     padding: 0 0.8rem;
+ }

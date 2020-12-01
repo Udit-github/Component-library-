@@ -4,98 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Adarsh Balika</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Welcome to the Component library for Getting Started page</h1>
-    <p>I am attending a live session which is going make my webpage look more consistent
-        and good.</p>
+    <h1>
+        <nav class='navigation'>
+            <div class='nav-brand'>DevlopingDeveloper</div>
+            <ul class='non-bullet nav-pills'>
+                <li class='list-item-inline'><a class='links link-active' href="/">Home</a> </li>
+                <li class='list-item-inline'><a class='links' href="/project.html"> Projects</a> </li>
+                <li class='list-item-inline'><a class='links' href="/blogs.html">Blogs</a></li>
+            </ul>
 
-    <hr> 
+        </nav>
+    </h1>
 
-    <h2>@Typography</h2>
-
-    <h1>This is biggest heading</h1>
-    <h2>This is second biggest heading</h2>
-    <p>It will have <strong>bold </strong>text</p>
-    <p>let me show you hte normal text. This is free flowing and will wrap at the end</p>
-    <small>This is another small.</small>
-    <hr>
-
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of th page</div>
-    <h3>center container</h3>
-    <div class="container-center">This is center container and it will go till the specified width </div>
-
-    <hr>
-    <h2>@links</h2>
-    <a class="primary-link" href="https://geekforgeeks.com"> Primary Link</a>
-    <a class="secondary-link"href="/">Secondary Link</a>
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>Unordered list</h3>
-    <ul class='non-bullet'>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-
-    </ul>
-    <h3>Unordered inline list</h3>
-    <ul class='non-bullet nav-pills' >
-        <li class='list-item-inline'> Inline item one </li>
-        <li class='list-item-inline'>Inline item two</li>
-        <li class='list-item-inline'>Inline item three</li>
-
-    </ul>
-    <h3> Reverse Ordered list</h3>
-    <ol reversed>
-        <li>Milk </li>
-        <li>Bread</li>
-        <li>Eggs</li>
-    </ol>
-    <hr>
-    <h2>@nav</h2>
-    <nav class='navigation'>
-        <div class='nav-brand'>I am brand</div>
-        <ul class='non-bullet nav-pills'>
-            <li class='list-item-inline'><a class='links link-active' href="/">Home</a> </li>
-            <li class='list-item-inline'><a class='links' href="/"> Product</a> </li>
-            <li class='list-item-inline'><a class='links' href="/">About</a></li>
-        </ul>
-    </nav>
-    <hr>
-    <h2>@header</h2>
-    <header>
-        <img src="Images\BS.svg">
-        <h2>Heading Inside hero</h2>
+    <header class="hero">
+        <img class='hero-img' src="Images\BS.svg">
+        <h2 class='hero-heading'>Heading Inside hero</h2>
     </header>
-    <hr>
-    <h2>@Section</h2>
 
-    <section>
-        <h3>@white section</h3>
-        <p>This will have white background</p>
+    <section class="section ow">
+        <div class="container-center">
+            <h1>Technologies</h1>
+            <p>This will contain grey background</p>
+        </div>
+
     </section>
 
-    <section>
-        <h3>Off White Section</h3>
-        <p>This will contain grey background</p>
+    <section class="section ">
+        <div class="container-center">
+            <h1>Projects</h1>
+            <p>This section is dedicated to the skills I have gained overtime</p>
+        </div>
+        <a class="primary-link" href="https://geekforgeeks.com">See Projects</a>
     </section>
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>Some small heading in footer</div>
-        <ul>
-            <li>SocialOne</li>
-            <li>SocialTwo</li>
-            <li>SocialThree</li>
+
+    <footer class="footer">
+        <div class="footer-header">Connect With me here</div>
+        <ul class="social-links non-bullet ">
+            <li class="list-item-inline">
+                <a class="links" href="https://github.com/Udit-github">Github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="https://www.linkedin.com/in/udit-agarwal-a720881a9/">Linkedin</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="/">Instagram</a>
+            </li>
         </ul>
     </footer>
-
 </body>
 
 </html>
