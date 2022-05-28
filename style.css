@@ -70,8 +70,8 @@ hr {
     background-color: var(--primary-color);
     color: rgb(255, 255, 255);
     padding: 1rem;
-    border-bottom-left-radius: 1.1rem;
-    border-top-right-radius: 1.1rem;
+    border-bottom-left-radius: 3.1rem;
+    border-top-right-radius: 2rem;
     margin: 0rem;
 }
 
@@ -131,8 +131,8 @@ background-color: var(--off-white);
 color: white;
 padding: 0.7rem 0.8rem;
 text-align: center;
-border-top-left-radius: 1.1rem;
-border-bottom-right-radius: 1.1rem;
+border-top-left-radius: 3rem;
+border-bottom-right-radius: 2rem;
  }
  .footer .links{
     font-weight: bold;
